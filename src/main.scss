@@ -3,4 +3,11 @@
 @import "./pages/about/about.scss";
 @import "./pages/home/home.scss";
 
-@import "./utils/base.scss";
+@import "./utils/variables.scss";
+@import "./utils/text.scss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}

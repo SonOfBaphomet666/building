@@ -2,5 +2,9 @@
 
 export const APP_ROUTES = {
     HOME: "/",
-    ABOUT: "/about"
+    OBJECT: "/object",
+    TECHNO: "/techno",
+    VACANCIES: "/vacancies",
+    CONTACT: "/contact",
+    ABOUT: "/about",
 };

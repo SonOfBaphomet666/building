@@ -1,4 +1,5 @@
 import "./main.scss";
+import {APP_ROUTES} from "./utils/constant";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -13,11 +14,10 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        
+        <Route path={APP_ROUTES.HOME} element={<Home />} />
+        <Route path={APP_ROUTES.ABOUT} element={<About />} />
       </Routes>
     </Router>
-      <Home />
-      <About />
     </>
   );
 }
