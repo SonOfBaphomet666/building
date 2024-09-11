@@ -68,14 +68,13 @@
     width: 120px;
     height: 35px;
     margin-top: 40px;
-    background-color: #ffffff;
+    background-color: $white;
     border: 1px solid rgb(209, 213, 219);
-    border-radius: 0.5rem;
+    border-radius: 18px;
     box-sizing: border-box;
-    color: #111827;
+    color: $black;
     font-weight: 600;
-    line-height: 1.25rem;
-    padding: 0.75rem 1rem;
+    padding: 16px;
     text-decoration: none #d1d5db solid;
     text-decoration-thickness: auto;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
@@ -141,6 +140,11 @@
     margin-right: 10px;
   }
 
+  &__cert {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   &__certBox {
     display: flex;
     justify-content: center;
@@ -162,22 +166,133 @@
   &__brownLine {
     width: 100%;
     height: 210px;
-    background-color: #585757;
+    background-color: $brown;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+  }
+
+  &__brownBox {
     display: flex;
     align-items: center;
-
-    .box {
-      display: flex;
-      justify-content: center;
-      width: 500px;
-    }
+    justify-content: space-around;
+    width: 500px;
   }
 
   &__number {
-    width: 5%;
+    width: 130px;
+    color: $white;
+  }
+
+  &__lineWhite {
+    border-left: 1px solid $white;
+    height: 80px;
+  }
+
+  &__name {
+    color: $white;
+    width: 190px;
+  }
+
+  &__butt {
+    display: flex;
+    align-items: center;
+    // margin-left: 500px;
+  }
+
+  &__blueButton {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 35px;
+    background-color: $blue;
+    border-radius: 18px;
+    box-sizing: border-box;
+    color: $white;
+    font-weight: 600;
+    padding: 16px;
+    // text-decoration: none #d1d5db solid;
+    // text-decoration-thickness: auto;
+    // box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+
+    &:hover {
+      background-color: $white;
+    }
+
+    &:focus {
+      outline: 2px solid transparent;
+      outline-offset: 2px;
+    }
+
+    &:focus-visible {
+      box-shadow: none;
+    }
   }
 
   .icons {
     font-size: 52.8px;
+  }
+
+  .icon {
+    margin-right: 5px;
+  }
+
+  &__videoBox {
+    display: flex;
+    justify-content: center;
+
+    .building {
+      position: relative;
+      filter: blur(4px);
+      width: 3440px;
+      height: 930px;
+    }
+    // .videoBox {
+    //   width: 100%;
+    //   height: 100%;
+    // }
+    .video {
+      position: absolute;
+      margin-top: 300px;
+    }
+  }
+
+  &__blueLine2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #0062a9;
+    font-size: 35.2px;
+    font-weight: 400;
+    color: $white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    .box {
+      height: 100px;
+      display: flex;
+      justify-content: center;
+
+      .info {
+        margin-left: 250px;
+      }
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      
+      .link {
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: center;
   }
 }

@@ -48,10 +48,10 @@ const Navbar = () => {
                 </div>
               </div>
             </NavLink>
-            <NavLink to={APP_ROUTES.HOME} className="navbar__link">
+            <NavLink to={APP_ROUTES.VACANCIES} className="navbar__link">
               Вакансии
             </NavLink>
-            <NavLink to={APP_ROUTES.HOME} className="navbar__link">
+            <NavLink to={APP_ROUTES.CONTACT} className="navbar__link">
               Контакты
             </NavLink>
           </div>

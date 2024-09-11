@@ -3,7 +3,13 @@ import { BiCheckCircle } from "react-icons/bi";
 import { PiGearSixBold } from "react-icons/pi";
 import { FaRegLightbulb } from "react-icons/fa6";
 import { IoIosPeople } from "react-icons/io";
+import { MdOutlinePhoneIphone } from "react-icons/md";
+import { IoHome } from "react-icons/io5";
+import { FaPhone } from "react-icons/fa6";
+
 import YouTube from "react-youtube";
+
+import ScrollBtn from "../../components/scrollBtn/scrollBtn";
 
 const Home = () => {
   return (
@@ -138,26 +144,69 @@ const Home = () => {
             </div>
           </div>
           <div className="info__brownLine">
-            <div className="box">
-            <div className="info__number">
-              <p>Позвоните нам:</p>
-              <p>8(499)777-77-77</p>
-            </div>
-            <div className="info__name">
-              <h3>ФСК Мостоотряд-47</h3>
-              <h3>АО ГК НПC</h3>
+            <div className="info__brownBox">
+              <div className="info__number">
+                {/* <div className="info__phone">
+                  <MdOutlinePhoneIphone />
+                </div> */}
+                <MdOutlinePhoneIphone />
+                <p>Позвоните нам:</p>
+                <p>8(499)777-77-77</p>
               </div>
-              <div className="info__butt">
+              <div className="info__lineWhite"></div>
+              <div className="info__name">
+                <h3>ФСК Мостоотряд-47</h3>
+                <h3>АО ГК НПC</h3>
+              </div>
+              {/* <div className="info__butt">
                 <button className="info__blueButton">Контакты</button>
-              </div>
+              </div> */}
+            </div>
+            <div className="info__butt">
+              <button className="info__blueButton">Контакты</button>
             </div>
           </div>
-          <div className="info__video">
-            <YouTube
-            className="info__video"
-              videoId="QXzZF9wQphM"
-            ></YouTube>
+          <div className="info__videoBox">
+            <img className="building" src="/src/assets/img/building.jpg" />
+            {/* <div className="videoBox"> */}
+            <YouTube className="video" videoId="QXzZF9wQphM" />
+            {/* </div> */}
           </div>
+
+          <footer>
+            <div className="info__blueLine2">
+              <div className="box">
+                <p className="info">
+                  <IoHome className="icon" />
+                  г. Москва, Михайлово-Ярцевское поселение,
+                  <br />
+                  пос. Шишкин Лес, дом 44, СТР. 1, ЭТ/КОМ 2/24
+                </p>
+                <p className="info">
+                  <FaPhone className="icon" />
+                  +7 (499) 917-15-20
+                </p>
+                <p className="info">
+                  <FaPhone className="icon" />
+                  Отдел кадров: +7 (499) 917-15-20 доб.12142,12143
+                  <br />
+                  <FaPhone className="icon" />
+                  +7 (985) 441-02-67 WhatsApp
+                </p>
+              </div>
+              <div className="links">
+                <p className="link">О компании</p>
+                <p className="link">Технологии</p>
+                <p className="link">Аренда техники</p>
+                <p className="link">Вакансии</p>
+                <p className="link">Контакты</p>
+              </div>
+              <div className="copyright">
+                <p className="link">Copyright © 1996 - 2024. Мостоотряд 47.</p>
+              </div>
+            </div>
+          </footer>
+          <ScrollBtn />
         </div>
       </main>
     </>
