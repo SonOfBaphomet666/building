@@ -201,7 +201,7 @@ const Home = () => {
                 <p className="link">Вакансии</p>
                 <p className="link">Контакты</p>
               </div>
-              <div className="copyright">
+              <div className="info__copyright">
                 <p className="link">Copyright © 1996 - 2024. Мостоотряд 47.</p>
               </div>
             </div>

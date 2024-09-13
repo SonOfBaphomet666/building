@@ -1,0 +1,9 @@
+.Box {
+    display: flex;
+    justify-content: center;
+
+    &__cards {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -30,9 +30,9 @@ const Navbar = () => {
                   Наши объекты <FaLongArrowAltDown className="arrow" />
                 </button>
                 <div className="dropdown__content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
+                  <NavLink href="#">Link 1</NavLink>
+                  <NavLink href="#">Link 2</NavLink>
+                  <NavLink href="#">Link 3</NavLink>
                 </div>
               </div>
             </NavLink>
@@ -42,9 +42,9 @@ const Navbar = () => {
                   Технологии <FaLongArrowAltDown className="arrow" />
                 </button>
                 <div className="dropdown__content">
-                  <a href="#">Link 1</a>
-                  <a href="#">Link 2</a>
-                  <a href="#">Link 3</a>
+                  <NavLink href="#">Link 1</NavLink>
+                  <NavLink href="#">Link 2</NavLink>
+                  <NavLink href="#">Link 3</NavLink>
                 </div>
               </div>
             </NavLink>
