@@ -7,4 +7,8 @@ export const APP_ROUTES = {
     VACANCIES: "/vacancies",
     CONTACT: "/contact",
     ABOUT: "/about",
+    FINISHED: "/finishedObject",
+    PROCESS: "/process",
+    POWER: "/power",
+    
 };

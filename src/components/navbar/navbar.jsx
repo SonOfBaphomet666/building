@@ -24,27 +24,24 @@ const Navbar = () => {
             <NavLink to={APP_ROUTES.HOME} className="navbar__link">
               Главная
             </NavLink>
-            <NavLink to={APP_ROUTES.HOME} className="navbar__link">
+            <NavLink to={APP_ROUTES.OBJECT} className="navbar__link">
               <div className="dropdown">
                 <button className="dropdown__btn">
                   Наши объекты <FaLongArrowAltDown className="arrow" />
                 </button>
                 <div className="dropdown__content">
-                  <NavLink href="#">Link 1</NavLink>
-                  <NavLink href="#">Link 2</NavLink>
-                  <NavLink href="#">Link 3</NavLink>
+                <NavLink to={APP_ROUTES.FINISHED}>Завершенные объекты</NavLink>
+                <NavLink to={APP_ROUTES.PROCESS}>В процессе строительства</NavLink>
                 </div>
               </div>
             </NavLink>
-            <NavLink to={APP_ROUTES.HOME} className="navbar__link">
+            <NavLink to={APP_ROUTES.TECHNO} className="navbar__link">
               <div className="dropdown">
                 <button className="dropdown__btn">
                   Технологии <FaLongArrowAltDown className="arrow" />
                 </button>
                 <div className="dropdown__content">
-                  <NavLink href="#">Link 1</NavLink>
-                  <NavLink href="#">Link 2</NavLink>
-                  <NavLink href="#">Link 3</NavLink>
+                  <NavLink to={APP_ROUTES.POWER}>Производственные мощи</NavLink>
                 </div>
               </div>
             </NavLink>

@@ -1,0 +1,28 @@
+.techno {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  &__box {
+  }
+
+  &__info {
+    width: 1200px;
+    height: 170px;
+    background-color: $grey-light;
+    padding: 30px;
+    margin-bottom: 40px;
+  }
+
+  &__box {
+    margin-bottom: 15px;
+  }
+
+  &__photo {
+    .photo {
+        margin-left: 30px;
+        width: 220px;
+        height: 130px;
+    }
+  }
+}
