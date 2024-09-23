@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/home";
 import Object from "./pages/оbject/object";
 import FinishedObj from "./pages/оbject/finishedObj/finishedObj";
+import ProccessObj from "./pages/оbject/processObj/processObj";
 import Technologies from "./pages/technologies/technologies";
 import Power from "./pages/technologies/power/power";
 import About from "./pages/about/about";
@@ -23,6 +24,7 @@ function App() {
           <Route path={APP_ROUTES.HOME} element={<Home />} />
           <Route path={APP_ROUTES.OBJECT} element={<Object />} />
           <Route path={APP_ROUTES.FINISHED} element={<FinishedObj />} />
+          <Route path={APP_ROUTES.PROCCESS} element={<ProccessObj />} />
           <Route path={APP_ROUTES.TECHNO} element={<Technologies />} />
           <Route path={APP_ROUTES.POWER} element={<Power />} />
           <Route path={APP_ROUTES.VACANCIES} element={<Vacancies />} />

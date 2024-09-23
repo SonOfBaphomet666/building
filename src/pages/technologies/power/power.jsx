@@ -60,12 +60,83 @@ const Power = () => {
                 src="/src/assets/img/techno/power/power4.jpg"
               />
             </div>
+            <table>
+              <thead>
+                <tr>
+                  <th>Место</th>
+                  <th>Оценка</th>
+                  <th>Название фильма</th>
+                  <th>Год выхода</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>9.1</td>
+                  <td>Зелёная миля</td>
+                  <td className="par">1999</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>9.1</td>
+                  <td>Побег из Шоушенка</td>
+                  <td className="par">1994</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>8.6</td>
+                  <td>Властелин колец: Возвращение Короля</td>
+                  <td className="par">2003</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>Total almbus</tr>
+                <tr className="par">77</tr>
+              </tfoot>
+            </table>
             <div className="table">
+              <table>
+                <h3>Буровая техника</h3>
+                <div className="table__tables">
+                  <div className="table__line">
+                    <div className="table__number">
+                      <tr>
+                        <th>№</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                      </tr>
+                    </div>
+                  </div>
+                  <div className="table__names">
+                    <p>Наименование Макс. Ø бурения/глубина бурения</p>
+                    <p>Буровая установка Liebherr LB24</p>
+                    <p>Буровая установка Liebherr LRB255</p>
+                    <p>Буровая установка Liebherr LB28</p>
+                    <p>Буровая установка УРБ-2А-2 на шасси Урал 4320-0111-41</p>
+                  </div>
+                  <div className="table__size">
+                    <p>Макс. Ø бурения/глубина бурения</p>
+                    <p>1500мм/36м</p>
+                    <p>1500мм/44м</p>
+                    <p>1500мм/44м</p>
+                    <p>190мм/300м</p>
+                  </div>
+                  <div className="table__amount">
+                    <p>Кол-во</p>
+                    <p>1</p>
+                    <p>1</p>
+                    <p>1</p>
+                    <p>1</p>
+                  </div>
+                </div>
+              </table>
               <div className="table__name">
                 <h3>Буровая техника</h3>
               </div>
               <div className="table__name">
-                <p>№</p> <p>Наименование Макс. Ø бурения/глубина бурения</p>{" "}
+                <p>№</p> <p>Наименование Макс. Ø бурения/глубина бурения</p>
                 <p>Кол-во</p>
               </div>
               <div className="table__name">

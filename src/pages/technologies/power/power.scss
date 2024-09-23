@@ -7,12 +7,13 @@
   &__box {
     display: flex;
     flex-direction: column;
+    width: 1300px;
   }
 
   &__boxInfo {
     display: flex;
     justify-content: center;
-    width: 1100px;
+    // width: 1100px;
     height: 50px;
     padding: 30px;
     margin-bottom: 30px;
@@ -23,27 +24,73 @@
     width: 310px;
     height: 400px;
     margin-top: 40px;
-    margin-left: 10px;
+  }
+
+  &__boxImg {
+    display: flex;
+    justify-content: space-between;
   }
 
   &__imgSmall {
-    margin-right: 20px;
     width: 200px;
     height: 135px;
   }
 
-  &__boxImg {
-    margin-top: 10px;
+  &__boxImgSmall {
+    display: flex;
+    justify-content: space-between;
   }
-
 
   .table {
     margin-top: 20px;
     margin-bottom: 20px;
-    &__name {
-        display: flex;
-        justify-content: space-between;
-        border-bottom: solid 1px $grey-light;
+
+    &__number {
     }
+
+    &__line {
+      border-bottom: solid 1px $grey-light;
+    }
+
+    &__names {
+    }
+
+    &__name {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: solid 1px $grey-light;
+    }
+
+    &__tables {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: solid 1px $grey-light;
+    }
+  }
+
+  table {
+    display: flex;
+    flex-direction: column;
+    // border-bottom: 1px solid black;
+  }
+  tr {
+    display: flex;
+    justify-content: space-between;
+
+    .par {
+      width: 60px;
+    }
+  }
+  th {
+  }
+  td {
+    width: 150px;
+  }
+  tbody {
+  
+  }
+  tfoot {
+    display: flex;
+    justify-content: space-between;
   }
 }

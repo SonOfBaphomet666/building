@@ -31,7 +31,7 @@ const Navbar = () => {
                 </button>
                 <div className="dropdown__content">
                 <NavLink to={APP_ROUTES.FINISHED}>Завершенные объекты</NavLink>
-                <NavLink to={APP_ROUTES.PROCESS}>В процессе строительства</NavLink>
+                <NavLink to={APP_ROUTES.PROCCESS}>В процессе строительства</NavLink>
                 </div>
               </div>
             </NavLink>
