@@ -19,6 +19,11 @@
   &__img1 {
     width: 3440px;
     height: 1440px;
+
+    @media screen and (max-width:$pc){
+      width: 1920px;
+      height: 1240px;
+    }
   }
 }
 

@@ -24,7 +24,7 @@ const Navbar = () => {
             <NavLink to={APP_ROUTES.HOME} className="navbar__link">
               Главная
             </NavLink>
-            <NavLink to={APP_ROUTES.OBJECT} className="navbar__link">
+            <NavLink className="navbar__link">
               <div className="dropdown">
                 <button className="dropdown__btn">
                   Наши объекты <FaLongArrowAltDown className="arrow" />

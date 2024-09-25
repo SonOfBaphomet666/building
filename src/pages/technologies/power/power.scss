@@ -41,56 +41,26 @@
     justify-content: space-between;
   }
 
-  .table {
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-    &__number {
-    }
-
-    &__line {
-      border-bottom: solid 1px $grey-light;
-    }
-
-    &__names {
-    }
-
-    &__name {
-      display: flex;
-      justify-content: space-between;
-      border-bottom: solid 1px $grey-light;
-    }
-
-    &__tables {
-      display: flex;
-      justify-content: space-between;
+  .tableBox {
+    &__title {
+      margin-top: 50px;
+      padding: 10px;
       border-bottom: solid 1px $grey-light;
     }
   }
 
   table {
-    display: flex;
-    flex-direction: column;
-    // border-bottom: 1px solid black;
+    width: 100%;
   }
-  tr {
-    display: flex;
-    justify-content: space-between;
 
-    .par {
-      width: 60px;
-    }
+  th,
+  td,
+  tr {
+    padding: 10px;
+    border-bottom: solid 1px $grey-light;
   }
-  th {
-  }
-  td {
-    width: 150px;
-  }
-  tbody {
-  
-  }
-  tfoot {
-    display: flex;
-    justify-content: space-between;
+
+  .par {
+    text-align: center;
   }
 }

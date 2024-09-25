@@ -4,7 +4,7 @@ import { APP_ROUTES } from "./utils/constant";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Home from "./pages/home/home";
-import Object from "./pages/оbject/object";
+// import Object from "./pages/оbject/object";
 import FinishedObj from "./pages/оbject/finishedObj/finishedObj";
 import ProccessObj from "./pages/оbject/processObj/processObj";
 import Technologies from "./pages/technologies/technologies";
@@ -22,7 +22,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path={APP_ROUTES.HOME} element={<Home />} />
-          <Route path={APP_ROUTES.OBJECT} element={<Object />} />
+          {/* <Route path={APP_ROUTES.OBJECT} element={<Object />} /> */}
           <Route path={APP_ROUTES.FINISHED} element={<FinishedObj />} />
           <Route path={APP_ROUTES.PROCCESS} element={<ProccessObj />} />
           <Route path={APP_ROUTES.TECHNO} element={<Technologies />} />
